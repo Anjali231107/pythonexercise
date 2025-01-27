@@ -1,0 +1,15 @@
+# from timeit import Timer
+# time = Timer("t=a; a=b; b=t", "a=1; b=2").timeit()
+# print(time)
+
+# time2 = Timer("a,b=b,a", "a=1; b=2").timeit()
+# print(time2)
+
+import time
+start_time = time.time()
+
+# End the timer
+end_time = time.time()
+
+# Calculate the time difference
+print(f"Time taken to compress: {end_time - start_time:.6f} seconds")

@@ -1,0 +1,18 @@
+# if statement
+
+# x = int(input("Please enter an integer"))
+# if x<2:
+#     x = 0
+#     print("negative change to Zero")
+# elif x==0:
+#     print("zero")
+# elif x==1:
+#     print("single")
+# else:
+#     print("more")
+
+# for statement
+name = ["anjali", "prasad", "aryal"]
+for x in name:
+    print(x, len(x))
+     
